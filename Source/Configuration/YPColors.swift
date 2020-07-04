@@ -23,6 +23,8 @@ public struct YPColors {
     /// Default is nil, which takes tintColor.
     public var multipleItemsSelectedCircleColor: UIColor?
     
+    public var shotButtonTintColor: UIColor?
+    
     /// The background color of the bottom of photo and video screens.
     public var photoVideoScreenBackgroundColor: UIColor = .offWhiteOrBlack
 

@@ -94,6 +94,9 @@ class YPCameraView: UIView, UIGestureRecognizerDelegate {
         
         shotButton.centerVertically()
         shotButton.size(84).centerHorizontally()
+        if let shotButtonTintColor = YPConfig.colors.shotButtonTintColor {
+            shotButton.tintColor = shotButtonTintColor
+        }
 
         // Style
         backgroundColor = YPConfig.colors.photoVideoScreenBackgroundColor
